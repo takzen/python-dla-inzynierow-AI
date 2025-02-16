@@ -1,10 +1,10 @@
 # 1. Sklonowanie repozytorium z GitHub (lub innego systemu kontroli wersji)
-git clone https://github.com/nazwa-użytkownika/nazwa-repozytorium.git
+git clone https://github.com/takzen/python-dla-inzynierow-AI.git
 
 # 2. Przejście do sklonowanego katalogu
-cd nazwa-repozytorium
+cd python-dla-inzynierow-AI
 
-# 3. Utworzenie środowiska wirtualnego (venv) w katalogu projektu dla Python 3.12.8
+# 3. Utworzenie środowiska wirtualnego (venv) w katalogu projektu dla Python 3.13.2
 python -m venv venv
 
 # 4. Aktywowanie środowiska wirtualnego:
