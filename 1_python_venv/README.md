@@ -17,14 +17,18 @@ venv\Scripts\activate.bat
 # Na systemie Linux/macOS
 source venv/bin/activate
 
-# 5. Instalacja zależności z pliku requirements.txt (jeśli istnieje)
+# 6. Update pip 
+python.exe -m pip install --upgrade pip
+
+
+# 7. Instalacja zależności z pliku requirements.txt (jeśli istnieje)
 pip install -r requirements.txt
 
-# 6. Sprawdzenie zainstalowanych pakietów w środowisku wirtualnym
+# 8. Sprawdzenie zainstalowanych pakietów w środowisku wirtualnym
 pip list
 
-# 7. Uruchomienie aplikacji Python (przykładowo, jeśli projekt zawiera plik main.py)
+# 9. Uruchomienie aplikacji Python (przykładowo, jeśli projekt zawiera plik main.py)
 python main.py
 
-# 8. Dezaktywowanie środowiska wirtualnego po zakończeniu pracy
+# 10. Dezaktywowanie środowiska wirtualnego po zakończeniu pracy
 deactivate
