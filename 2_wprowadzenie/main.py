@@ -36,7 +36,6 @@ print(tekst)
 
 # 2.6. Wprowadzanie danych z klawiatury
 wiek = input("Podaj swój wiek: ")
-wiek = 11
 print("Masz", wiek, "lat.")
 
 

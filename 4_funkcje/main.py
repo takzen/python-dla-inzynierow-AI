@@ -35,7 +35,7 @@ def zgadnij_liczbe():
         print("Spróbuj ponownie! Prawidłowa liczba to:", liczba)
 
 
-# zgadnij_liczbe()
+zgadnij_liczbe()
 
 
 # 4.6. Standardowa biblioteka Pythona
@@ -133,7 +133,9 @@ kwadraty = list(map(lambda x: x**2, liczby))
 print(kwadraty)
 
 
+
 # 4.18. Wprowadzenie do Data Science: miary rozproszenia
+import statistics
 dane = [10, 20, 30, 40, 50]
 print("Odchylenie standardowe:", statistics.stdev(dane))
 

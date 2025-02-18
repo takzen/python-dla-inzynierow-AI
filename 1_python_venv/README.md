@@ -11,6 +11,8 @@ python -m venv venv
 # Na systemie Windows (PowerShell)
 venv\Scripts\Activate
 
+
+
 # Na systemie Windows (cmd)
 venv\Scripts\activate.bat
 
