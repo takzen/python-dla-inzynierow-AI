@@ -11,8 +11,6 @@ python -m venv venv
 # Na systemie Windows (PowerShell)
 venv\Scripts\Activate
 
-
-
 # Na systemie Windows (cmd)
 venv\Scripts\activate.bat
 
@@ -21,7 +19,6 @@ source venv/bin/activate
 
 # 6. Update pip 
 python.exe -m pip install --upgrade pip
-
 
 # 7. Instalacja zależności z pliku requirements.txt (jeśli istnieje)
 pip install -r requirements.txt
