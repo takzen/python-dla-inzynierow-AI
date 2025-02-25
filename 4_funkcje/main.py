@@ -118,13 +118,14 @@ print(moje_dane)  # Lista została zmieniona
 
 
 # 4.16. Rekurencja
-def silnia(n):
-    if n == 0:
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
         return 1
-    return n * silnia(n - 1)
+    return fibonacci(n - 1) + fibonacci(n - 2)
 
-
-print("5! =", silnia(5))
+print("Fibonacci(5) =", fibonacci(5))  # 5
 
 
 # 4.17. Funkcyjny styl programowania
@@ -134,11 +135,5 @@ print(kwadraty)
 
 
 
-# 4.18. Wprowadzenie do Data Science: miary rozproszenia
-import statistics
-dane = [10, 20, 30, 40, 50]
-print("Odchylenie standardowe:", statistics.stdev(dane))
-
-
-# 4.19. Podsumowanie
+# 4.18. Podsumowanie
 print("Rozdział o funkcjach zakończony!")

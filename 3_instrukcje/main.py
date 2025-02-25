@@ -38,6 +38,7 @@ for i in range(5):
 
 
 # 3.7. Rozszerzone przypisania
+#inne: -=, *=, /=, %= 
 a = 5
 a += 3  # równoważne a = a + 3
 print(a)
@@ -55,12 +56,12 @@ for index, wartosc in enumerate(lista):
     print(f"Indeks: {index}, Wartość: {wartosc}")
 
 
-# 3.10. Wbudowana funkcja "range" — nieco dokładniej
+# 3.10. Wbudowana funkcja "range" i argumenty — nieco dokładniej
 for i in range(2, 10, 2):  # Start, stop, krok
     print(i)
 
 
-# 3.11. Obliczenia finansowe — typ "Decimal"
+# 3.11. Obliczenia finansowe — typ "Decimal" - wieksza precyzja
 from decimal import Decimal
 
 
@@ -86,14 +87,5 @@ print(prawda or falsz)  # True
 print(not prawda)  # False
 
 
-# 3.14. Wprowadzenie do Data Science: miary tendencji centralnej
-import statistics
-
-
-dane = [10, 20, 30, 40, 50]
-print("Średnia:", statistics.mean(dane))
-print("Mediana:", statistics.median(dane))
-
-
-# 3.15. Podsumowanie
+# 3.14. Podsumowanie
 print("Sterowanie przepływem programu w Pythonie zakończone!")
