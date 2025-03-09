@@ -56,6 +56,12 @@ print("Liczba Pi:", math.pi)
 # 4.8. Wspomagane uzupełnianie kodu
 # IDE jak PyCharm i VS Code oferują uzupełnianie kodu (autocompletion).
 
+# 1. klawisz TAB
+import math
+
+# 2. kropka
+print(math.atan)
+
 
 # 4.9. Domyślne wartości parametrów
 def powitanie(imie="Gość"):
@@ -83,6 +89,7 @@ print(suma_wielu(1, 2, 3, 4, 5))
 
 
 # 4.12. Metody — funkcje należące do obiektów
+# https://docs.python.org/3/library/index.html
 tekst = "python"
 print(tekst.upper())  # Metoda upper zmienia litery na wielkie
 
@@ -102,6 +109,13 @@ print("Wartość globalna:", x)
 
 # 4.14. O importowaniu nieco dokładniej
 from datetime import datetime
+
+
+print("Aktualna data:", datetime.now())
+
+# 4.14b. nadawanie aliasów
+import statistics as stat
+import numpy as np
 
 
 print("Aktualna data:", datetime.now())

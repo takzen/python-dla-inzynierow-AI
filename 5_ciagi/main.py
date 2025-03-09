@@ -42,6 +42,9 @@ print("Suma listy:", suma_listy(lista))
 lista.sort()
 print("Posortowana lista:", lista)
 
+lista.sort(reverse=True)
+print("Posortowana lista:", lista)
+
 
 # 5.9. Multiplikacja ciągu
 powielona_lista = lista * 2
@@ -49,7 +52,7 @@ print("Powielona lista:", powielona_lista)
 
 
 # 5.10. Przeszukiwanie ciągów
-if 3 in lista:
+if 2 in lista:
     print("3 znajduje się w liście")
 
 
@@ -75,25 +78,22 @@ print("Kwadraty liczb 0-4:", kwadraty)
 # 5.14. Wyrażenia generatorowe
 generator = (x**2 for x in range(5))
 print("Pierwsza wartość generatora:", next(generator))
+print("Pierwsza wartość generatora:", next(generator))
+print("Pierwsza wartość generatora:", next(generator))
 
 
-# 5.15. Natywne filtrowanie, mapowanie i redukcja
-liczby = [1, 2, 3, 4, 5]
-parzyste = list(filter(lambda x: x % 2 == 0, liczby))
-print("Liczby parzyste:", parzyste)
 
-
-# 5.16. Inne funkcje do przetwarzania ciągów
+# 5.15. Inne funkcje do przetwarzania ciągów
 maksimum = max(lista)
 print("Największy element listy:", maksimum)
 
 
-# 5.17. Listy dwuwymiarowe
+# 5.16. Listy dwuwymiarowe
 macierz = [[1, 2, 3], [4, 5, 6]]
 print("Element w drugim wierszu i trzeciej kolumnie:", macierz[1][2])
 
 
-# 5.18. Wprowadzenie do Data Science: symulacje i ich statyczna wizualizacja
+# 5.17. Wprowadzenie do Data Science: symulacje i ich statyczna wizualizacja
 import random
 import matplotlib.pyplot as plt
 
@@ -104,5 +104,5 @@ plt.title("Histogram symulowanych danych")
 plt.show()
 
 
-# 5.19. Podsumowanie
+# 5.18. Podsumowanie
 print("Rozdział o listach i krotkach zakończony!")

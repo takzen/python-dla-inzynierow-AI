@@ -1,7 +1,6 @@
 import numpy as np
 import timeit
 
-
 # 7.1. Wstęp
 # NumPy to biblioteka umożliwiająca efektywne operacje na tablicach wielowymiarowych.
 
@@ -15,6 +14,7 @@ print("Tablica NumPy:", tablica)
 # 7.3. Atrybuty tablic
 print("Kształt tablicy:", tablica.shape)
 print("Typ danych w tablicy:", tablica.dtype)
+
 
 
 # 7.4. Wypełnianie tablicy zadaną wartością
